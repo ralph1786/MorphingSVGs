@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Gaegu|Merienda");
+
+body {
+  margin: 0;
+  padding: 80px;
+}
+
+.polymorph {
+  fill: url(#grad1);
+}
+
+#cta,
+#cta2 {
+  position: absolute;
+  margin: 10em auto 0 auto;
+  left: 0;
+  right: 0;
+  width: 30%;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5pc;
+  padding: 15px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: 0;
+  font-family: "Merienda", cursive;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: "Gaegu", cursive;
+}
+
+#cta2 {
+  width: auto;
+  margin: 30px auto;
+  background: rgb(247, 178, 88);
+}
+
+#blip {
+  position: absolute;
+  color: rgb(245, 180, 94);
+  right: 25%;
+  top: 0;
+  opacity: 0;
+  width: 30%;
+  transform: translateY(-800px);
+}
